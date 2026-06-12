@@ -33,7 +33,15 @@ st.markdown("""
         font-family: 'Inter', sans-serif;
     }
 
-    #MainMenu, footer, header[data-testid="stHeader"] { visibility: hidden; }
+    #MainMenu, footer { visibility: hidden; }
+
+    /* Keep the header transparent (not hidden) so the sidebar toggle stays usable */
+    header[data-testid="stHeader"] {
+        background: transparent !important;
+    }
+    /* Hide only the deploy button / toolbar actions, keep the sidebar collapse control */
+    [data-testid="stToolbar"] { visibility: hidden; }
+    [data-testid="stSidebarCollapsedControl"] { visibility: visible !important; }
 
     /* Ambient gradient background */
     .stApp {
