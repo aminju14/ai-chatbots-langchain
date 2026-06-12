@@ -1,7 +1,11 @@
 import os
 import streamlit as st
+from dotenv import load_dotenv
 from langchain_openai import ChatOpenAI
 from langchain_core.messages import SystemMessage, HumanMessage, AIMessage
+
+# Load API key dari file .env (jika ada)
+load_dotenv()
 
 st.set_page_config(
     page_title="AI Chat",
@@ -33,15 +37,27 @@ st.markdown("""
         font-family: 'Inter', sans-serif;
     }
 
-    #MainMenu, footer { visibility: hidden; }
+    #MainMenu, footer { display: none; }
 
     /* Keep the header transparent (not hidden) so the sidebar toggle stays usable */
     header[data-testid="stHeader"] {
         background: transparent !important;
     }
-    /* Hide only the deploy button / toolbar actions, keep the sidebar collapse control */
-    [data-testid="stToolbar"] { visibility: hidden; }
-    [data-testid="stSidebarCollapsedControl"] { visibility: visible !important; }
+    /* Hide only the deploy button, never the whole toolbar/header */
+    [data-testid="stAppDeployButton"] { display: none; }
+
+    /* Make sure the "open sidebar" control is always visible & on top */
+    [data-testid="stSidebarCollapsedControl"] {
+        visibility: visible !important;
+        opacity: 1 !important;
+        z-index: 999999 !important;
+    }
+    [data-testid="stSidebarCollapsedControl"] button {
+        background: var(--surface) !important;
+        border: 1px solid var(--border) !important;
+        border-radius: 12px !important;
+        color: var(--text) !important;
+    }
 
     /* Ambient gradient background */
     .stApp {
