@@ -1,8 +1,13 @@
 # 🤖 AI Chat
 
+[![Open Source](https://img.shields.io/badge/Open%20Source-❤️-brightgreen?style=flat-square)](https://github.com/aminju14/ai-chatbots-langchain)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue?style=flat-square)](LICENSE)
+[![Python 3.9+](https://img.shields.io/badge/Python-3.9+-yellow?style=flat-square)](https://www.python.org/)
+[![Streamlit](https://img.shields.io/badge/Built%20with-Streamlit-FF4B4B?style=flat-square)](https://streamlit.io)
+
 Chatbot AI serbaguna dengan antarmuka web modern, dibangun menggunakan **Streamlit**, **LangChain**, dan **OpenAI GPT**. Aplikasi ini menyediakan pengalaman percakapan yang natural dengan respons *real-time streaming*, riwayat percakapan kontekstual, dan desain UI yang bersih bergaya modern.
 
-> Final Project — Hacktiv8
+> 🎓 Final Project — Hacktiv8 &nbsp;|&nbsp; 🌍 **Proyek ini sepenuhnya Open Source — bebas digunakan, dipelajari, dan dikembangkan siapa saja!**
 
 ---
 
@@ -148,10 +153,41 @@ Pelajar, mahasiswa, dan profesional muda yang membutuhkan asisten AI serbaguna u
 
 ---
 
-## 📄 Lisensi
+## 📄 Lisensi & Open Source
 
-Proyek ini dibuat untuk keperluan pembelajaran (Final Project Hacktiv8). Silakan gunakan dan modifikasi sesuai kebutuhan.
+Proyek ini adalah **open source** dan dirilis di bawah lisensi **MIT**.
+
+Artinya, kamu **bebas untuk**:
+- ✅ Menggunakan proyek ini untuk keperluan pribadi maupun komersial
+- ✅ Memodifikasi dan mengembangkan sesuai kebutuhanmu
+- ✅ Mendistribusikan ulang, dengan atau tanpa perubahan
+- ✅ Menjadikannya bagian dari proyekmu sendiri
+
+Satu hal kecil yang diharapkan: **tetap cantumkan kredit / attribution** pada proyek asal. Itu saja! 🙏
+
+> Proyek ini awalnya dibuat sebagai Final Project Hacktiv8, dan kini dibuka untuk komunitas.
+
+---
+
+## ☕ Dukung Proyek Ini
+
+Hei, kalau proyek ini membantu kamu — entah buat belajar, inspirasi, atau langsung dipakai — dan kamu ingin mengapresiasi kerja kerasnya, kamu bisa traktir kopi virtual! ☕
+
+Tidak ada kewajiban sama sekali, tapi setiap dukungan kecil sangat berarti dan memotivasi untuk terus membuat proyek open source yang bermanfaat. 💪
+
+<p align="center">
+  <a href="https://saweria.co/aminju14" target="_blank">
+    <img src="https://img.shields.io/badge/☕%20Traktir%20Kopi%20via%20Saweria-%23FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" alt="Saweria Donation" />
+  </a>
+</p>
+
+<p align="center">
+  👉 <strong><a href="https://saweria.co/aminju14">saweria.co/aminju14</a></strong>
+</p>
+
+> 💛 Terima kasih banyak buat siapa pun yang sudah mendukung! Nama kamu akan selalu diingat sebagai pahlawan open source. 🦸
 
 ---
 
 <p align="center">Dibuat dengan ❤️ menggunakan Streamlit + LangChain + OpenAI</p>
+<p align="center">🌟 Jika proyek ini berguna, jangan lupa kasih <strong>Star</strong> di GitHub ya!</p>
